@@ -60,7 +60,7 @@ export const updateUserName = async () => {
 		}
 
 		prevFollowerCount = followersCount;
-		const displayName = '🆂🆄🆁🅴🅽 | 👨🏻‍💻 ';
+		const displayName = 'Surendar Vinayagamoorthy';
 
 		const newUserName = `${displayName} \| ${getFormattedNumbers(
 			followersCount

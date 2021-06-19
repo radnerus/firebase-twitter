@@ -6,7 +6,7 @@ import { updateUserName } from './twitter.js';
 //
 
 export const twitterCron = functions.pubsub
-	.schedule('*/1 * * * *')
+	.schedule('*/30 * * * *')
 	.onRun(async (_) => {
 		await updateUserName();
 		return null;
